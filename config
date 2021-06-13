@@ -1,0 +1,5 @@
+#personal GitHub
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile /Users/ektasharma/.ssh/id_rsa_personal
