@@ -4,11 +4,10 @@ phases:
   pre_build:
     commands:
       - npm install
+      - npm install -g @angular/cli@11.2.3
   build:
     commands:
       - npm run build
-      - npm install -g @angular/cli@11.2.3
-
 artifacts:
   files:
      - '**/*'
